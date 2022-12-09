@@ -2,12 +2,12 @@
 using namespace std;
 
 int main(){
-    int evencount=0;
-    int oddcount=0;
-    int num=1;
+    int evencount = 0;
+    int oddcount = 0;
+    int num = 1;
     while(num != 0){
     cout << "Enter an integer: ";
-    cin >>num;
+    cin >> num;
     if(num%2==0 && num!=0){
         evencount++;
     }
